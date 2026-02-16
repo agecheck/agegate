@@ -1,6 +1,6 @@
-# AgeCheck AgeGate
+# AgeGate
 
-[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE.txt)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![Tests](https://github.com/agecheck/agegate/actions/workflows/ci.yml/badge.svg)](https://github.com/agecheck/agegate/actions/workflows/ci.yml)
 [![CDN](https://img.shields.io/badge/CDN-cdn.agecheck.me-111827)](https://cdn.agecheck.me/agegate/v1/)
 
@@ -102,6 +102,10 @@ Render a modal (or mount a button) and run the same hardened flow:
 </script>
 ```
 
+You can configure and test Easy AgeGate interactively at:
+
+- `https://demo.agegate.me/easy-agegate.html`
+
 ## Privacy + Security Notes
 
 - Add `<meta name="referrer" content="no-referrer">` (recommended). This prevents the relying-party URL from being sent to the issuer.
@@ -121,4 +125,4 @@ Build output is written to `v1/` for CDN deployment. Sourcemaps are off by defau
 
 ## License
 
-Apache-2.0. See `LICENSE.txt`, `NOTICE.txt`, and `THIRD_PARTY_NOTICES.txt`.
+Apache-2.0. See [`LICENSE.txt`](./LICENSE.txt), [`NOTICE.txt`](./NOTICE.txt), and [`THIRD_PARTY_NOTICES.txt`](./THIRD_PARTY_NOTICES.txt).
