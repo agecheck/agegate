@@ -2,7 +2,6 @@
 
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![Tests](https://github.com/agecheck/agegate/actions/workflows/ci.yml/badge.svg)](https://github.com/agecheck/agegate/actions/workflows/ci.yml)
-[![CDN](https://img.shields.io/badge/CDN-cdn.agecheck.me-111827)](https://cdn.agecheck.me/agegate/v1/)
 
 AgeGate is the browser-side integration for **AgeCheck**, a privacy-preserving age-verification authority.
 
