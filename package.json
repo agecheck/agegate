@@ -1,0 +1,56 @@
+{
+  "name": "agegate",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "Privacy-preserving age verification for the web (passkeys + signed age-tier credentials). Includes a minimal SDK and an optional UI wrapper.",
+  "author": "ReallyMe LLC",
+  "homepage": "https://agecheck.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agecheck/agegate"
+  },
+  "bugs": {
+    "url": "https://github.com/agecheck/agegate/issues"
+  },
+  "keywords": [
+    "age-verification",
+    "age-gating",
+    "privacy",
+    "passkeys",
+    "webauthn",
+    "verifiable-credentials",
+    "jwt",
+    "eidas",
+    "eudi-wallet"
+  ],
+  "packageManager": "pnpm@10.29.2",
+  "engines": {
+    "node": ">=25 <26"
+  },
+  "main": "./v1/agegate.js",
+  "exports": {
+    ".": "./v1/agegate.js",
+    "./easy": "./v1/easy-agegate.js"
+  },
+  "files": [
+    "v1",
+    "LICENSE.txt",
+    "NOTICE.txt",
+    "THIRD_PARTY_NOTICES.txt",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:esm": "node scripts/build.mjs --esm",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.3"
+  },
+  "dependencies": {
+    "pako": "^2.1.0"
+  }
+}

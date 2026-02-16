@@ -1,0 +1,12 @@
+AgeCheck AgeGate - Third Party Notices
+
+This project bundles third-party dependencies into the CDN artifacts under `v1/`.
+This file exists to make it explicit that we do not claim ownership of those
+components and to aid license compliance.
+
+1) pako
+   - Project: https://github.com/nodeca/pako
+   - License: (MIT AND Zlib), per upstream headers.
+   - Notes: The bundled output also retains upstream license headers emitted
+     by the dependency during bundling.
+
