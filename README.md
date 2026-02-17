@@ -3,7 +3,7 @@
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![Tests](https://github.com/agecheck/agegate/actions/workflows/ci.yml/badge.svg)](https://github.com/agecheck/agegate/actions/workflows/ci.yml)
 
-AgeGate is the browser-side integration for **AgeCheck**, a privacy-preserving age-verification authority.
+AgeGate is the browser-side integration for **AgeCheck**, a privacy-preserving age-verification tool.
 
 AgeCheck issues cryptographically signed **age-tier credentials** (e.g., `16+`, `18+`, `21+`) without exposing a user's birthdate or identity. Users authenticate with **passkeys (WebAuthn)** and receive a verifiable credential that websites can validate server-side in milliseconds. It separates demo and production trust paths and makes verification explicit and auditable. AgeCheck is a **Derived Credential Issuer**.
 
